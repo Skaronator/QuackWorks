@@ -42,7 +42,7 @@ Cable_slot = 7;
 
 /*[Mounting Options]*/
 //How do you intend to mount the channels to a surface such as Honeycomb Storage Wall or Multiboard? See options at https://handsonkatie.com/underware-2-0-the-made-to-measure-collection/
-Mounting_Method = "Threaded Snap Connector"; //[Threaded Snap Connector, Direct Multiboard Screw, Direct Multipoint Screw, Magnet, Wood Screw, Flat]
+Mounting_Method = "Direct Multiboard Screw"; //[Threaded Snap Connector, Direct Multiboard Screw, Direct Multipoint Screw, Magnet, Wood Screw, Flat]
 //Diameter of the magnet (in mm)
 Magnet_Diameter = 4.0; 
 //Thickness of the magnet (in mm)

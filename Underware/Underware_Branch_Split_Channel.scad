@@ -50,7 +50,7 @@ Branch_Units_Extra_Length = 0;//[0:1:10]
 
 /*[Mounting Options]*/
 //How do you intend to mount the channels to a surface such as Honeycomb Storage Wall or Multiboard? See options at https://handsonkatie.com/underware-2-0-the-made-to-measure-collection/
-Mounting_Method = "Threaded Snap Connector"; //[Threaded Snap Connector, Direct Multiboard Screw, Magnet, Wood Screw, Flat]
+Mounting_Method = "Direct Multiboard Screw"; //[Threaded Snap Connector, Direct Multiboard Screw, Magnet, Wood Screw, Flat]
 //Diameter of the magnet (in mm)
 Magnet_Diameter = 4.0; 
 //Thickness of the magnet (in mm)
@@ -80,7 +80,7 @@ Additional_Holding_Strength = 0.0;//[0:0.1:1.5]
 
 /*[Hidden]*/
 //BETA FEATURE: Change the profile type to an inverse connection where the top clips from the inside allowing stronger connections. Not backwards compatible. This profile is still likely to change.
-Profile_Type = "Original"; // [Original, v2.5]
+Profile_Type = "v2.5"; // [Original, v2.5]
 
 /*[Hidden]*/
 channelWidth = Straight_Channel_Width_in_Units * Grid_Size;

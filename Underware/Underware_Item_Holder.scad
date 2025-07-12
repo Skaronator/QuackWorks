@@ -57,11 +57,11 @@ Mounting_Surface = "Multiboard"; //[Multiboard, openGrid, Custom]
 
 /* [Internal Dimensions] */
 //Depth (by mm): internal dimension along the Z axis of print orientation. Measured from the top to the base of the internal floor, equivalent to the depth of the item you wish to hold when mounted horizontally.
-Internal_Depth = 50.0; //.1
+Internal_Depth = 150; //.1
 //Width (by mm): internal dimension along the X axis of print orientation. Measured from left to right, equivalent to the width of the item you wish to hold when mounted horizontally.
-Internal_Width = 60.0; //.1
+Internal_Width = 77.6; //.1
 //Height (by mm): internal dimension along the Y axis of print orientation. Measured from the front to the back, equivalent to the thickness of the item you wish to hold when mounted horizontally.
-Internal_Height = 15.0; //.1
+Internal_Height = 22.9; //.1
 
 /*[Style Customizations]*/
 //Edge rounding (by mm)
@@ -69,7 +69,7 @@ edgeRounding = 0.5; // [0:0.1:2]
 
 /* [Front Cutout Customizations] */
 //Cut out the front
-frontCutout = true; 
+frontCutout = false; 
 //Distance upward (Z axis) from the bottom (by mm). This captures the bottom front of the item
 frontLowerCapture = 7;
 //Distance downward (Z axis) from the top (by mm). This captures the top front of the item. Use zero (0) for a cutout top. May require printing supports if used. 
@@ -90,11 +90,11 @@ bottomSideCapture = 3;
 
 /*[Cord Cutout Customizations]*/
 //Cut out a slot on the bottom and through the front for a cord to connect to the device
-cordCutout = false;
+cordCutout = true;
 //Diameter/width of cord cutout
-cordCutoutDiameter = 10;
+cordCutoutDiameter = 17;
 //Move the cord cutout laterally (X axis), left is positive and right is negative (by mm)
-cordCutoutLateralOffset = 0;
+cordCutoutLateralOffset = 30;
 //Move the cord cutout depth (Y axis), forward is positive and back is negative (by mm)
 cordCutoutDepthOffset = 0;
 

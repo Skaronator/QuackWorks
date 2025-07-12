@@ -27,7 +27,7 @@ Channel_Internal_Height = 12; //[12:6:72]
 
 /*[Mounting Options]*/
 //How do you intend to connect the channels to a surface such as Honeycomb Storage Wall or Multiboard? See options at https://coda.io/@andylevesque/underware
-Mounting_Method = "Threaded Snap Connector"; //[Threaded Snap Connector, Direct Multiboard Screw]
+Mounting_Method = "Direct Multiboard Screw"; //[Threaded Snap Connector, Direct Multiboard Screw]
 
 /*[Options: I-Channel]*/
 //length of channel in units (default unit is 25mm)
